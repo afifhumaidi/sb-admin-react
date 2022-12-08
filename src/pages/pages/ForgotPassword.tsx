@@ -1,5 +1,4 @@
-import { useEffect } from "react"
-import BodyPrimaryLayout from "../layout/BodyPrimaryLayout"
+import BodyPrimaryLayout from "../../layout/BodyPrimaryLayout"
 
 function ForgotPassword() {
   
