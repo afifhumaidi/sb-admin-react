@@ -1,5 +1,4 @@
 import $ from 'jquery'
-import 'bootstrap'
 import { Link } from "react-router-dom"
 
 function Sidebar() {

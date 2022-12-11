@@ -1,6 +1,18 @@
+import $ from 'jquery'
+import * as dt from 'datatables.net-bs4'
+import { useEffect } from 'react'
 import CardRegularBasic from "../components/cards/CardRegularBasic"
 
 function Tables() {
+  useEffect(() => {
+    // @ts-ignore
+    dt()
+
+    $(document).ready(function() {
+      $('#dataTable').DataTable();
+    })
+  }, [])
+
   return(
     <div className="container-fluid">
       <h1 className="h3 mb-2 text-gray-800">Tables</h1>

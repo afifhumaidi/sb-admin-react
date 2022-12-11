@@ -1,3 +1,5 @@
+import './scss/index.scss'
+import 'bootstrap'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
@@ -5,8 +7,6 @@ import MainLayout from './layout/MainLayout'
 import ForgotPassword from './pages/pages/ForgotPassword'
 import Login from './pages/pages/Login'
 import Register from './pages/pages/Register'
-import './scss/index.scss'
-import './vendor'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
